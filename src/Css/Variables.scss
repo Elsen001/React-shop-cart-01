@@ -1,0 +1,18 @@
+$header-bg-color: black;
+$items-bg-color: black;
+$header-height: 80px;
+$color-btn-category: white;
+$footer-bg-color:#2D3344;
+$footer-text-color:rgb(224, 224, 224);
+@mixin btn {
+    margin: 15px 0 0 0;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: $color-btn-category;
+    &:hover{
+        background-color: red;
+        color: white;
+      }
+}

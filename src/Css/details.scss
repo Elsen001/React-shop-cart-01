@@ -1,0 +1,54 @@
+.details-container{
+    min-height: 500px;
+}
+.details {
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .carusel{
+        width: 500px;
+        height: 350px;
+        h3{
+            background-color: black;
+            color: white;
+        }
+    }
+
+        img{height: 300px;}
+
+    .description {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+        * {
+            padding: 20px;
+        }
+
+        .add-to-cart {
+            text-align: right;
+            button{
+                @include btn
+            }
+        }
+
+    }
+}
+
+@media screen and  (max-width:1110px) {
+    .details{
+        justify-content: center;
+       
+    }
+}
+
+@media screen and (max-width:530px) {
+    .details{
+        .description{
+            align-items: center;
+        }
+    }
+}

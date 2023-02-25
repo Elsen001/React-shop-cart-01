@@ -1,0 +1,35 @@
+@import "./Variables.scss";
+@import "./Header.scss";
+@import "./Category.scss";
+@import "./Item.scss";
+@import "./Items.scss";
+@import "./cartTable.scss";
+@import "./details.scss";
+@import "./footer.scss";
+@import "./carousel.scss";
+@import "./loading.scss";
+@import "~bootstrap/scss/bootstrap";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(168deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 9, 0.633578431372549) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+a {
+    text-decoration: none !important;
+}

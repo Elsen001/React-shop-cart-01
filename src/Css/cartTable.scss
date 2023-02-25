@@ -1,0 +1,81 @@
+div{
+    h1{
+        margin-top: 30px ;
+        text-align: center;
+    }
+    section{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 200px;
+      padding-top: 50px;
+      font-size: 35px;
+      a{
+        color: red;
+        background-color: black;
+        padding: 5px;
+        text-decoration: none;
+      }
+    }
+}
+
+table{
+    width: 70%;
+    margin:  70px auto;
+    position: relative;
+    thead{
+      text-align: left;
+      margin: 20px 0;
+    }
+    tbody{
+        .totalPrice{
+            h6{
+                font-size: 30px;
+                text-align: right;
+            }
+        }
+      .desc{
+        display: flex;
+        align-items: center;
+        img{width: 100px;height: 80px; margin-right: 20px;}
+      }
+      tr{
+        padding:30px;
+        td{
+            padding: 10px;
+            button{
+                padding: 2px 10px;
+                border: none;
+            }
+            
+        }
+      }
+      
+    }
+    tfoot{
+      position: absolute;
+      right: 0;
+      tr{
+        text-align: right;
+        td{
+          padding: 10px;
+          border: 1px solid black;
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+}
+
+ td,tr {
+    border-bottom: 1px solid black;
+  }
+
+  @media screen and (max-width:900px) {
+    div{
+      table{
+        width: 90%;
+      }
+    }
+  }
